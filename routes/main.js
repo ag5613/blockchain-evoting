@@ -19,7 +19,7 @@ var getAge = require('get-age');
 
 
 var nodemailer = require('nodemailer');
-var rand = "0000";//Math.floor((Math.random() * 10000) + 54);
+var rand = Math.floor((Math.random() * 10000) + 54);
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
